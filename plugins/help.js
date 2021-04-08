@@ -10,7 +10,7 @@ const Config = require('../config');
 // ==================== MAIN DESCRIPTION TEXT ====================
 const h_Des = "Yardım menüsünden botu kullanım hakkında bilgi verir."
 const h_DedEN = "Gives information about using the bot from the Help menu."
-const matchnullEN = "========== *🆘 General Help 🆘* ==========\n\n🔹 *.alive:* Untuk mengecek apakah bot ini aktif.\n\n🔹 *.asena:* Melihat perintah yang ada.\n🔹 *.setvar:* It settings config without entering Heroku.\n\n🔸 For more help, join official Grub : http://chat.whatsapp.com/CaAELq7bDRaF8brWxMDUv0\n\n========== *End General Help* =========="
+const matchnullEN = "========== *🆘 General Help 🆘* ==========\n\n🔹 *.alive:* Untuk mengecek apakah bot ini aktif.\n\n🔹 *.cmd:* Melihat perintah/command yang ada.\n\n🔹 *.setvar:* It settings config without entering Heroku(Owner Only).\n\n🔸 For more help, join Official Grub : http://chat.whatsapp.com/CaAELq7bDRaF8brWxMDUv0\n\n=========== *End General Help* ==========="
 const matchnull = "========== *🆘 Genel Yardım 🆘* ==========\n\n🔹 *.alive:* Botun çalışıp çalışmadığını kontrol eder.\n🔹 *.asena:* Tüm komut listesini gösterir.\n🔹 *.setvar:* Herokuya girmeden config ayarlar.\n\n🔸 Daha fazla yardım için ```.help <yardım almak istediğiniz konu>``` komutunu kullanın.\nÖrnek: ```.help botumu nasıl public yaparım?```\n\n========== *Genel Yardım Bitti* =========="
 const notfound = "```Almak istediğiniz yardım bulunamadı!```\n```Lütfen daha açıklayıcı bir şekilde sorunu belirtin.```"
 const notfoundEN = "```The help you wanted to get was not found!```\n```Please state the problem in a more descriptive way.```"
