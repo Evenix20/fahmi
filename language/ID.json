@@ -4,6 +4,10 @@
     "LANGCODE": "in",
     "AUTHOR": "Phaticusthiccy / @todayisshitday(telegram) / Avi Patil",
     "STRINGS": {
+        
+        "_help": {
+            "HELP_DESC": "Butuh Bantuan"
+            
         "_asena": {
             "COMMAND": "Perintah",
             "DESC": "Deskripsi",
@@ -12,7 +16,7 @@
             "WARN": "Peringatan"
         },
         "_plugin": {
-            "INSTALL_DESC": "Penginstalan plugin.",
+            "INSTALL_DESC": "Penginstalan plugin (owner only).",
             "NEED_URL": "Harap masukkan URL Plugin! Contoh:",
             "INVALID_URL": "```Harap masukkan url yang valid!```",
             "INVALID_PLUGIN": "*❌ Plugin Anda tidak valid!*\n*Kesalahan:*",
@@ -26,7 +30,7 @@
             "DELETED": "*✅ Plugin berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
         },
         "admin": {
-            "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah.",
+            "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah(admin only).",
             "IM_NOT_ADMIN": "*Saya bukan admin di grup ini!*",
             "BANNED": "dikeluarkan dari grup!",
             "GIVE_ME_USER": "*Beri saya pengguna!*",
@@ -103,13 +107,13 @@
             "DELETED": "*✅ Filter berhasil dihapus!*"
         },
         "greetings": {
-            "WELCOME_DESC": "Ini Menyetel pesan selamat datang. Jika Anda membiarkannya kosong, itu menunjukkan pesan selamat datang.",
+            "WELCOME_DESC": "Ini Menyetel pesan selamat datang. Jika Anda membiarkannya kosong, itu menunjukkan pesan selamat datang(Admin Only).",
             "NOT_SET_WELCOME": "*Anda belum menyetel pesan selamat datang.!*\n**Untuk menyetel:** ```.welcome Hai && Hai#ada apa```",
             "WELCOME_ALREADY_SETTED": "*✅ Pesan selamat datang sudah disetel!*\n*Pesan:* ```",
             "NEED_WELCOME_TEXT": "*Anda harus menulis pesan untuk Menyetel pesan selamat datang.*\n*Contoh:* ```.welcome Hai && Hai#ada apa```",
             "WELCOME_DELETED": "*✅ Pesan selamat datang berhasil dihapus!*",
             "WELCOME_SETTED": "*✅ Pesan selamat datang berhasil disetel!*",
-            "GOODBYE_DESC": "Menyetel pesan selamat tinggal. Jika Anda biarkan kosong, itu menunjukkan pesan selamat tinggal.",
+            "GOODBYE_DESC": "Menyetel pesan selamat tinggal. Jika Anda biarkan kosong, itu menunjukkan pesan selamat tinggal(Admin Only).",
             "NOT_SET_GOODBYE": "*Anda tidak menyetel pesan selamat tinggal!*\n*Untuk menyetel:* ```.goodbye Selamat tinggal && Selamat tinggal#Goreng```",
             "GOODBYE_ALREADY_SETTED": "*✅ Pesan selamat tinggal telah disetel.!*\n*Pesan:* ```",
             "NEED_GOODBYE_TEXT": "*Anda harus menulis pesan untuk menyetel pesan selamat tinggal.*\n*Contoh:* ```.goodbye Selamat tinggal && Selamat tinggal#Goreng```",
@@ -202,7 +206,7 @@
             "SYSD_DESC": "Menunjukkan properti sistem."
         },
         "tagall": {
-            "TAGALL_DESC": "Menandai semua orang di grup.",
+            "TAGALL_DESC": "Menandai semua orang di grup(Admin Only).",
             "ADMİN": "*Saya bukan admin di grup ini!*"
         },
         "updater": {
@@ -324,7 +328,7 @@
             "GÜNİKİMUTE": "*Grup dibungkam selama 2 hari!*",
             "GÜNÜÇMUTE": "*Grup dibungkam selama 3 hari!*",
             "TÜR": "*Perintah Tidak Diketahui!*\n_Menit: 1-59m_\n_Jam: 1-12h_\n_Hari: 1-3d",
-            "MUTE_DESC": "Bisukan obrolan grup. Hanya admin yang bisa mengirim pesan",
+            "MUTE_DESC": "Bisukan obrolan grup. Hanya admin yang bisa mengirim pesan(Admin Only)",
             "MUTE_OPEN": "```Obrolan grup telah disuarakan!```"
         },
         "unvoice": {
@@ -376,7 +380,7 @@
             "GLOW_DESC": "Mengubah teks menjadi lukisan neon."
         },
         "wallpaper": {
-            "WP": "Mengirimkan wallpaper resolusi tinggi yang berbeda."
+            "WP": "Mengirimkan wallpaper random dalam resolusi tinggi."
         },
         "webss": {
             "SS_DESC": "Mengambil screenshot dari halaman di link yang diberikan.",
