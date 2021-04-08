@@ -149,7 +149,7 @@ if (Config.WORKTYPE == 'public') {
         }
     }));
 }
-else if (Config.WORKTYPE == 'public') {
+if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'asena ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
