@@ -37,7 +37,7 @@ if (Config.WORKTYPE == 'private') {
         );
     }));
 }
-if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
