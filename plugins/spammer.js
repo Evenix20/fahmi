@@ -52,50 +52,5 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: false, desc: Lang.SPAM_DESC}, (
     await message.client.sendMessage(message.jid, fin, MessageType.text);
     
     await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);
-    
-    await message.client.sendMessage(message.jid, fin, MessageType.text);    
+        
 }));
