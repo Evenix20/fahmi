@@ -668,7 +668,7 @@ else if (config.WORKTYPE == 'public') {
         await reply.delete();
     }));
 
-    Asena.addCommand({pattern: 'img ?(.*)', fromMe: false, onlyGroup: True}, (async (message, match) => { 
+    Asena.addCommand({pattern: 'img ?(.*)', fromMe: false, onlyGroup: true}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
