@@ -203,7 +203,7 @@
         },
         "tagall": {
             "TAGALL_DESC": "Menandai semua orang di grup(Admin Only).",
-            "ADMİN": "*Saya bukan admin di grup ini!*"
+            "ADMİN": "*Saya bukan admin di grup ini!*",
             "TAGADMİN": "Memberi tag pada admin grup.",
             "REPORT": "Mengirimkan laporan ke admin grup.",
             "USER": "=== ```Melaporkan``` ===\n\n*Pengguna:* ",
